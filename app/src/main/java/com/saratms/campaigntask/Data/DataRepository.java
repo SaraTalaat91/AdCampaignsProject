@@ -20,11 +20,11 @@ public class DataRepository {
     }
 
     private void initCampaignData() {
-        mCampaignList.add(new Campaign("n1", "USA", 149, "Awareness", "Technology"));
-        mCampaignList.add(new Campaign("n2", "USA", 149, "Awareness", "Sports"));
-        mCampaignList.add(new Campaign("n3", "EGY", 149, "Awareness", "Technology"));
-        mCampaignList.add(new Campaign("n4", "EGY", 149, "Awareness","Sports" ));
-        mCampaignList.add(new Campaign("n5", "USA", 149, "Conversion", "Sports"));
+        mCampaignList.add(new Campaign(null,"n1", "USA", 149, "Awareness", "Technology"));
+        mCampaignList.add(new Campaign(null,"n2", "USA", 149, "Awareness", "Sports"));
+        mCampaignList.add(new Campaign(null, "n3", "EGY", 149, "Awareness", "Technology"));
+        mCampaignList.add(new Campaign(null, "n4", "EGY", 149, "Awareness","Sports" ));
+        mCampaignList.add(new Campaign(null, "n5", "USA", 149, "Conversion", "Sports"));
     }
 
     public static DataRepository getInstance(){

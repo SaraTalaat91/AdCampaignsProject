@@ -22,14 +22,6 @@ public class Campaign {
         mCategory = category;
     }
 
-    public Campaign(String name, String country, int budget, String goal, String category) {
-        mName = name;
-        mCountry = country;
-        mBudget = budget;
-        mGoal = goal;
-        mCategory = category;
-    }
-
     public String getName() {
         return mName;
     }
